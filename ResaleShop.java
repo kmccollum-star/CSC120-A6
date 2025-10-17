@@ -60,6 +60,7 @@ public class ResaleShop {
         if (!this.inventory.contains(comp)) {
             throw new Exception("Computer not in inventory");
         } 
+        //tested
         if (comp.getYear() < 2000) {
             comp.setPrice(0);
         } else if (comp.getYear() < 2012) {
@@ -69,6 +70,7 @@ public class ResaleShop {
         } else {
             comp.setPrice(1000);
         }
+        //tested
         if (newOS != "None") {
             comp.setOS(newOS);
         }
