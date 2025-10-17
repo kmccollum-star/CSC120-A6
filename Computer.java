@@ -22,7 +22,6 @@ public class Computer {
      * @param price price 
      */
 
-    //tested
     public Computer(String description, String processorType, 
                     int hardDriveCapacity, int memory, String operatingSystem, 
                     int yearMade, int price) {
@@ -39,7 +38,6 @@ public class Computer {
      * Sets price
      * @param newPrice new price 
      */
-    //tested
     public void setPrice(int newPrice) {
         this.price = newPrice; 
     } 
@@ -48,7 +46,6 @@ public class Computer {
      * Sets OS
      * @param newOS new OS
      */
-    //tested
     public void setOS(String newOS) {
         this.operatingSystem = "None"; 
     }
@@ -57,7 +54,6 @@ public class Computer {
      * Get year computer was made 
      * @return year computer was made 
      */
-    //tested
     public int getYear() {
         return this.yearMade; 
     }
@@ -65,7 +61,6 @@ public class Computer {
     /**
      * String to print for a computer 
      */
-    //tested
     public String toString() {
         return this.description + "\n" + this.processorType  + "\n" + this.hardDriveCapacity  + "\n" + this.memory  + "\n" + this.operatingSystem  + "\n" + this.yearMade  + "\n" + this.price;  
     }
