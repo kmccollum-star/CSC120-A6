@@ -27,8 +27,8 @@ Brief description:  The constructor does not store the correct price.
 Failed unit test: testConstructorPrice()
 
 ## Bug 8
-Brief description:  The print inventory method does not return true when the inventory is empty.
-Failed unit test: testPrintEmptyInventory()
+Brief description:  The isEmpty() method does not return true when the inventory is empty.
+Failed unit test: testIsEmpty()
 
 ## Bug 9
 Brief description:  The buy method does not throw an exception if the computer is already in the inventory.
